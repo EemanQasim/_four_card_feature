@@ -1,9 +1,53 @@
 
 
-@@media screen and (max-width: 1336px) {
+@media screen and (min-width:1288px) {
 
-  .main{
-    
+  .main {
+    display: grid;
+    max-width: 70%; 
+    grid-template-columns: repeat(3 ,1fr );
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 30px;
+     transition: 300ms ease;
+    margin: 0 auto;
+  justify-content: center;
+
+
   }
 
+.karma{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  position: relative;
+  top: 120px;
 }
+
+.super{
+  grid-row: 2/3;
+}
+
+.calc{
+  grid-column: 3/4;
+  grid-row: 2/3;
+
+}
+
+.team{
+ grid-column: 2/3;
+ position: relative;
+ top: 100px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
