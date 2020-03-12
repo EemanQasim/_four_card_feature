@@ -58,7 +58,7 @@ font-size: 1.9 rem;
 
 .cards{
    width: 400px;
-   height: 300px;
+   height: 250px;
    background-color: #ffff;
    transition: 300ms ease;
    border-radius: 3%;
@@ -88,8 +88,9 @@ font-size: 1.9 rem;
 }
 
 .card-img{
+
   margin-left: 250px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
  #Team{
