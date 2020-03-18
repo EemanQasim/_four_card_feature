@@ -37,12 +37,15 @@ font-size: 1rem;
 
 
 .main {
-  max-width: 100%;
+  max-width: 500px;
   display: grid;
-  grid-gap:  30px;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: 1fr; */
+  grid-gap:  20px;
   margin: 5px auto;
-  justify-content: center;
   margin-top: 10px;
+  justify-items: center;
+  align-items: center;
  
   
   }
@@ -56,7 +59,7 @@ font-size: 1rem;
       padding: 25px;
 }
 
-/* .cards{
+.cards{
    width:350px ;
    height: 250px;
    background-color: #ffff;
@@ -65,7 +68,7 @@ font-size: 1rem;
    box-shadow: 0 12px 12px hsl(229, 6%, 66%);
 
 
-} */
+}
 
 .cards:hover{
   transform: scale(1.1) translateY(-3px);
@@ -91,7 +94,11 @@ font-size: 1rem;
 
   margin-left: 250px;
   margin-top: 60px;
+  
+  
 }
+
+
 
  #Team{
   border-top: 3px solid hsl(0, 78%, 62%);
