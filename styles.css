@@ -56,8 +56,8 @@ font-size: 1rem;
       padding: 25px;
 }
 
-.cards{
-   width: 100%;
+/* .cards{
+   width:350px ;
    height: 250px;
    background-color: #ffff;
    transition: 300ms ease;
@@ -65,7 +65,7 @@ font-size: 1rem;
    box-shadow: 0 12px 12px hsl(229, 6%, 66%);
 
 
-}
+} */
 
 .cards:hover{
   transform: scale(1.1) translateY(-3px);
