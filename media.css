@@ -1,22 +1,22 @@
 
 
-@media only screen and (min-width:1024) {
-
-
-
+@media only screen and (min-width:1024px) {
 
 .main {
   display: grid;
-  width:1024px;
+  width: 500px
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 10px;
   justify-items: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .cards {
-  width: 100%;
+  justify-items: center;
+  align-items: center;
+  width: 350px;
   height: 250px;
   background-color: #ffff;
   transition: 300ms ease;
@@ -47,17 +47,6 @@
   position: relative;
   top: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
