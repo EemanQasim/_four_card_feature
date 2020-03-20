@@ -1,18 +1,17 @@
-
-*{
+* {
   font-size: 15px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  
+
 }
 
-.head{
+.head {
   display: flex;
   justify-content: center;
-  
+
 }
 
-.Intro{
+.Intro {
   text-align: center;
   max-width: 600px;
   display: flex;
@@ -32,92 +31,101 @@ h1 {
   font-weight: 600;
   font-size: 2.5rem;
   margin: 0;
-  color:hsl(234, 12%, 34%);
+  color: hsl(234, 12%, 34%);
 }
 
 
 p {
-font-weight: 400;
-font-size: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-
-
-.main {
-  
+.container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-gap:  20px;
+  grid-gap: 20px;
   margin: 0 auto;
   justify-items: center;
   align-items: center;
   max-width: 900px;
-  
-  }
-
-
-.card-content{
-      padding: 25px;
+  justify-content: center;
 }
 
-.cards{
-   width:350px ;
-   height: 250px;
-   background-color: #ffff;
-   transition: 300ms ease;
-   border-radius: 3%;
-   box-shadow: 0 12px 12px hsl(229, 6%, 66%);
+
+.main {
+
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+  max-width: 900px;
+
+}
+
+
+.card-content {
+  padding: 25px;
+}
+
+.cards {
+  width: 350px;
+  height: 250px;
+  background-color: #ffff;
+  transition: 300ms ease;
+  border-radius: 3%;
+  box-shadow: 0 12px 12px hsl(229, 6%, 66%);
 
 
 }
 
-.cards:hover{
+.cards:hover {
   transform: scale(1.1) translateY(-3px);
 
 }
 
-.card-title{
+.card-title {
   font-size: 1.3rem;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
   margin-bottom: 10px;
-  padding: 3px; 
+  padding: 3px;
 }
 
-.card-text{
+.card-text {
   color: hsl(229, 6%, 66%);
   font-weight: 400;
   font-size: 1rem;
 
 }
 
-.card-img{
+.card-img {
 
   margin-left: 250px;
   margin-top: 60px;
-  
-  
+
+
 }
 
 
 
- #Team{
+#Team {
   border-top: 3px solid hsl(0, 78%, 62%);
 }
 
-#Calc{
-   border-top: 3px solid hsl(212, 86%, 64%);
+#Calc {
+  border-top: 3px solid hsl(212, 86%, 64%);
 }
 
-#Super{
-   border-top: 3px solid  hsl(180, 62%, 55%);
+#Super {
+  border-top: 3px solid hsl(180, 62%, 55%);
 }
 
-#Karma{
-   border-top: 3px solid hsl(34, 97%, 64%);
+#Karma {
+  border-top: 3px solid hsl(34, 97%, 64%);
 }
 
-footer{
- 
-}
+footer {}
