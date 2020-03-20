@@ -1,53 +1,56 @@
 
 
-@media screen and (min-width: 481px) {
+@media only screen and (min-width:1024px) {
 
-  .main {
-    display: grid;
-    max-width: 70%; 
-    grid-template-columns: repeat(3 ,1fr );
-    grid-template-rows: repeat(3,1fr);
-    grid-gap: 30px;
-     transition: 300ms ease;
-    margin: 0 auto;
+.main {
+  display: grid;
+  max-width: 1140px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
   justify-content: center;
+   margin: 0 auto;
+ 
+}
 
+.cards {
+  
+  width: 350px;
+  height: 250px;
+  background-color: #ffff;
+  transition: 300ms ease;
+  border-radius: 3%;
+  box-shadow: 0 12px 12px hsl(229, 6%, 66%);
 
-  }
+}
 
-.karma{
+.karma {
   grid-column: 2/3;
   grid-row: 2/3;
   position: relative;
   top: 120px;
 }
 
-.super{
+.super {
+  grid-column: 1;
   grid-row: 2/3;
 }
 
-.calc{
+.calc {
   grid-column: 3/4;
   grid-row: 2/3;
 
 }
 
-.team{
- grid-column: 2/3;
- position: relative;
- top: 100px;
+.team {
+  grid-column: 2/3;
+  position: relative;
+  top: 100px;
+}
+
+footer{
+  margin: 200px 0 auto;
 }
 
 
-
-
-
-
-
-
 }
-
-
-
-
-
