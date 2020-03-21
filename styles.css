@@ -2,9 +2,12 @@
   font-size: 15px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 
 }
-
+body{
+  background-color:hsl(0, 0%, 98%);
+}
 .head {
   display: flex;
   justify-content: center;
